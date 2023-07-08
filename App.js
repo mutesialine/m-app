@@ -3,10 +3,10 @@ import { Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View className="flex-1 bg-white items-center justify-center">
+    <View className="text-red-500 h-screen mx-auto bg-green-700">
       <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
+
 
