@@ -9,6 +9,7 @@ export default function ProductList() {
       data={products}
       keyExtractor={(product) => product.id}
       renderItem={({ item }) => <Productcard {...item} />}
+      className="px-5"
     />
   );
 }
