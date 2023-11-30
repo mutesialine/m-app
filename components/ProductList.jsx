@@ -1,5 +1,5 @@
 import * as React from "react";
-import { FlatList, Text } from "react-native";
+import { FlatList } from "react-native";
 import { products } from "../data/product";
 import Productcard from "./ProductCard";
 
