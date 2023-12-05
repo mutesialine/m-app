@@ -6,6 +6,7 @@ import AppBarHeader from "./components/AppBarHeader";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import FooterNavigation from "./components/FooterNavigation";
 
+//test
 export default function App() {
   const { colorScheme, toggleColorScheme } = useColorScheme();
   return (
